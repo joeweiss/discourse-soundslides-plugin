@@ -1,8 +1,8 @@
 #!/bin/env ruby
 # encoding: utf-8
-# name: pseuCo.com Onebox
-# version: 0.1
-# authors: fefrei
+# name: soundslides.com Onebox
+# version: 0.2
+# authors: joeweiss
 
 
 register_css <<CSS
@@ -24,7 +24,7 @@ CSS
 
 
 Onebox = Onebox
-class Onebox::Engine::PseuCoOnebox
+class Onebox::Engine::SoundslidesOnebox
     include Onebox::Engine
 
     def self.priority
@@ -36,7 +36,7 @@ class Onebox::Engine::PseuCoOnebox
     matches_regexp REGEX
 
     def id
-        @url.match(REGEX)[0]
+        @url.match(REGEX)[1]
     end
 
     def url
