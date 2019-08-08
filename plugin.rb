@@ -1,7 +1,7 @@
 #!/bin/env ruby
 # encoding: utf-8
 # name: soundslides.com Onebox
-# version: 0.2
+# version: 0.3
 # authors: joeweiss
 
 
