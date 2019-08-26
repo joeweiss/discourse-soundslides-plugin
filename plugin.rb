@@ -31,7 +31,7 @@ class Onebox::Engine::SoundslidesOnebox
         0
     end
 
-    REGEX = /^https?:\/\/play\.soundslides\.org\/([0-9a-zA-Z\-]+)?(\/|\/fill\/?\/?)?$/
+    REGEX = /^https?:\/\/play\.soundslides\.(org|com)\/([0-9a-zA-Z\-]+)?(\/|\/fill\/?\/?)?$/
 
     matches_regexp REGEX
 
